@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, g, redirect, url_for, session
 import sqlite3
 from email.message import EmailMessage
 import smtplib
-import pandas as pd
 from io import BytesIO
 
 application = Flask(__name__)
